@@ -1,0 +1,177 @@
+[gd_scene load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://regions/reverse_mountain_controller.gd" id="1_rm_ctrl"]
+[ext_resource type="Script" path="res://regions/twin_cape_dialogue_and_quests.gd" id="2_tc_dq"]
+
+[sub_resource type="CylinderShape3D" id="SubResource_gate_cyl"]
+height = 220.0
+radius = 280.0
+
+[sub_resource type="CylinderShape3D" id="SubResource_summit_cyl"]
+height = 450.0
+radius = 1400.0
+
+[sub_resource type="BoxShape3D" id="SubResource_exit_box"]
+size = Vector3(520.0, 260.0, 520.0)
+
+[sub_resource type="SphereShape3D" id="SubResource_dock_sphere"]
+radius = 140.0
+
+[sub_resource type="CapsuleShape3D" id="SubResource_laboon_body"]
+radius = 55.0
+height = 400.0
+
+[sub_resource type="SphereShape3D" id="SubResource_laboon_mouth"]
+radius = 52.0
+
+[sub_resource type="CylinderMesh" id="SubResource_lighthouse_mesh"]
+top_radius = 4.5
+bottom_radius = 8.0
+height = 48.0
+
+[sub_resource type="StandardMaterial3D" id="SubResource_lighthouse_mat"]
+albedo_color = Color(0.92, 0.88, 0.82, 1)
+emission_enabled = true
+emission = Color(1, 0.85, 0.45, 1)
+emission_energy_multiplier = 0.25
+
+[node name="ReverseMountainNodeA" type="Node3D"]
+script = ExtResource("1_rm_ctrl")
+
+[node name="TwinCapeDialogueAndQuests" type="Node" parent="."]
+script = ExtResource("2_tc_dq")
+reverse_mountain_controller_path = NodePath("..")
+
+[node name="WinterSkySunLight" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.866025, -0.353553, 0.353553, 0, 0.707107, 0.707107, -0.5, -0.612372, 0.612372, 0, 8000, 0)
+light_color = Color(0.86, 0.92, 1, 1)
+light_energy = 1.25
+shadow_enabled = true
+
+[node name="NorthBlueCanalEntry" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -110300, 0, -120100)
+
+[node name="GateCollision" type="CollisionShape3D" parent="NorthBlueCanalEntry"]
+shape = SubResource("SubResource_gate_cyl")
+
+[node name="EntryMarker" type="Marker3D" parent="NorthBlueCanalEntry"]
+
+[node name="GuideLight" type="OmniLight3D" parent="NorthBlueCanalEntry"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 85, 0)
+light_color = Color(0.55, 0.85, 1, 1)
+light_energy = 8.0
+omni_range = 3500.0
+
+[node name="EastBlueCanalEntry" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 95000, 0, -135400)
+
+[node name="GateCollision" type="CollisionShape3D" parent="EastBlueCanalEntry"]
+shape = SubResource("SubResource_gate_cyl")
+
+[node name="EntryMarker" type="Marker3D" parent="EastBlueCanalEntry"]
+
+[node name="GuideLight" type="OmniLight3D" parent="EastBlueCanalEntry"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 85, 0)
+light_color = Color(1, 0.82, 0.45, 1)
+light_energy = 8.0
+omni_range = 3500.0
+
+[node name="WestBlueCanalEntry" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -110300, 0, 120100)
+
+[node name="GateCollision" type="CollisionShape3D" parent="WestBlueCanalEntry"]
+shape = SubResource("SubResource_gate_cyl")
+
+[node name="EntryMarker" type="Marker3D" parent="WestBlueCanalEntry"]
+
+[node name="GuideLight" type="OmniLight3D" parent="WestBlueCanalEntry"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 85, 0)
+light_color = Color(0.75, 0.9, 1, 1)
+light_energy = 8.0
+omni_range = 3500.0
+
+[node name="SouthBlueCanalEntry" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 95000, 0, 135400)
+
+[node name="GateCollision" type="CollisionShape3D" parent="SouthBlueCanalEntry"]
+shape = SubResource("SubResource_gate_cyl")
+
+[node name="EntryMarker" type="Marker3D" parent="SouthBlueCanalEntry"]
+
+[node name="GuideLight" type="OmniLight3D" parent="SouthBlueCanalEntry"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 85, 0)
+light_color = Color(0.65, 1, 0.78, 1)
+light_energy = 8.0
+omni_range = 3500.0
+
+[node name="SummitBasin" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5000, 0)
+
+[node name="BasinCollision" type="CollisionShape3D" parent="SummitBasin"]
+shape = SubResource("SubResource_summit_cyl")
+
+[node name="SummitConvergenceMarker" type="Marker3D" parent="SummitBasin"]
+
+[node name="ParadiseExitCanal" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 148000, 0, 0)
+
+[node name="ExitSpillwayStartMarker" type="Marker3D" parent="ParadiseExitCanal"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -146950, 5000, 0)
+
+[node name="ExitChuteZone" type="Area3D" parent="ParadiseExitCanal"]
+
+[node name="ExitCollision" type="CollisionShape3D" parent="ParadiseExitCanal/ExitChuteZone"]
+shape = SubResource("SubResource_exit_box")
+
+[node name="ExitMouthMarker" type="Marker3D" parent="ParadiseExitCanal"]
+
+[node name="TwinCapeLighthouse" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 155823, 48, 3351)
+
+[node name="LighthouseTowerMesh" type="MeshInstance3D" parent="TwinCapeLighthouse"]
+mesh = SubResource("SubResource_lighthouse_mesh")
+surface_material_override/0 = SubResource("SubResource_lighthouse_mat")
+
+[node name="LighthouseBeaconLight" type="OmniLight3D" parent="TwinCapeLighthouse"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 28, 0)
+light_color = Color(1, 0.9, 0.6, 1)
+light_energy = 16.0
+omni_range = 18000.0
+
+[node name="BeaconFocusMarker" type="Marker3D" parent="TwinCapeLighthouse"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 28, 0)
+
+[node name="CrocusClinicDock" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 156940, 0, 2234)
+
+[node name="DockZoneCollision" type="CollisionShape3D" parent="CrocusClinicDock"]
+shape = SubResource("SubResource_dock_sphere")
+
+[node name="ClinicSpawnMarker" type="Marker3D" parent="CrocusClinicDock"]
+
+[node name="CrocusNPCMarker" type="Marker3D" parent="CrocusClinicDock"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 3, -8)
+
+[node name="LaboonWhaleBody" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 149200, 0, 0)
+
+[node name="WhaleObstacleArea" type="Area3D" parent="LaboonWhaleBody"]
+
+[node name="WhaleCapsuleCollision" type="CollisionShape3D" parent="LaboonWhaleBody/WhaleObstacleArea"]
+transform = Transform3D(0, -1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("SubResource_laboon_body")
+
+[node name="SwallowMouthArea" type="Area3D" parent="LaboonWhaleBody"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -168, 0, 0)
+
+[node name="MouthCollision" type="CollisionShape3D" parent="LaboonWhaleBody/SwallowMouthArea"]
+shape = SubResource("SubResource_laboon_mouth")
+
+[node name="StomachEntranceMarker" type="Marker3D" parent="LaboonWhaleBody"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -168, 0, 0)
+
+[node name="CrocusArtificialIslandMarker" type="Marker3D" parent="LaboonWhaleBody"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -24, 20)
+
+[node name="SteelExitDoorsMarker" type="Marker3D" parent="LaboonWhaleBody"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -18, 145)

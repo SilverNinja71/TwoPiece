@@ -1,0 +1,15 @@
+# Godot 4+ cache & local editor files
+.godot/
+.import/
+export_presets.cfg
+*.translation
+
+# macOS & OS clutter
+.DS_Store
+._*
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+.venv/

@@ -1,0 +1,1648 @@
+{
+  "project": "Project Blue Planet",
+  "source_image": "/Users/lin/.gemini/antigravity/brain/b554bb1c-b553-4bef-a514-dd4a62f0a2c8/.user_uploaded/media_1794727730344_94c7567f.jpg",
+  "source_dimensions_px": {
+    "width": 1024,
+    "height": 521
+  },
+  "decoder_used": "macOS_sips_bmp",
+  "planet_geodesy": {
+    "radius_m": 16000000.0,
+    "circumference_m": 100530964.91,
+    "red_line_tilt_deg": 45.0,
+    "red_line_width_m": 250000.0,
+    "red_line_elevation_m": 10000.0,
+    "grand_line_tilt_deg": -45.0,
+    "grand_line_width_m": 600000.0,
+    "calm_belt_width_m": 150000.0,
+    "node_a_reverse_mountain": {
+      "lat_deg": 0.0,
+      "lon_deg": 0.0,
+      "summit_m": 5000.0
+    },
+    "node_b_mary_geoise_fishman": {
+      "lat_deg": 0.0,
+      "lon_deg": 180.0,
+      "mary_geoise_m": 10000.0,
+      "sabaody_m": 0.0,
+      "fish_man_island_m": -10000.0
+    }
+  },
+  "grid_spec": {
+    "lon_cells": 180,
+    "lat_cells": 90,
+    "cell_size_deg": 2.0,
+    "total_sectors": 16200,
+    "legend": {
+      "R": "Red Line (+10,000m Great Circle)",
+      "P": "Grand Line Paradise (lon 0..180 deg)",
+      "N": "Grand Line New World (lon 180..360 deg)",
+      "C": "Calm Belt (0 m/s wind, Sea King zone)",
+      "L": "Outer Four Blues Island Landmass",
+      "O": "Blue Sea Open Ocean"
+    }
+  },
+  "sector_counts": {
+    "red_line": 112,
+    "grand_line_paradise": 110,
+    "grand_line_new_world": 110,
+    "calm_belt": 128,
+    "island_land": 3330,
+    "ocean": 12410
+  },
+  "elevated_island_sample_count": 3335,
+  "elevated_island_samples": [
+    {
+      "lat_deg": 89.0,
+      "lon_deg": -179.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": -177.0,
+      "zone": "four_blues",
+      "est_elevation_m": 500.6
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": -175.0,
+      "zone": "four_blues",
+      "est_elevation_m": 480.9
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": -171.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": -169.0,
+      "zone": "four_blues",
+      "est_elevation_m": 467.7
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": -167.0,
+      "zone": "four_blues",
+      "est_elevation_m": 546.6
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": -161.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": -159.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": -157.0,
+      "zone": "four_blues",
+      "est_elevation_m": 500.6
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": -15.0,
+      "zone": "four_blues",
+      "est_elevation_m": 572.9
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": -13.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": -11.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": -9.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": -5.0,
+      "zone": "four_blues",
+      "est_elevation_m": 605.7
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": -1.0,
+      "zone": "four_blues",
+      "est_elevation_m": 586.0
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 1.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 5.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 7.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 9.0,
+      "zone": "four_blues",
+      "est_elevation_m": 467.7
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 11.0,
+      "zone": "four_blues",
+      "est_elevation_m": 586.0
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 13.0,
+      "zone": "four_blues",
+      "est_elevation_m": 494.0
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 15.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 17.0,
+      "zone": "four_blues",
+      "est_elevation_m": 500.6
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 157.0,
+      "zone": "four_blues",
+      "est_elevation_m": 599.1
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 159.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 161.0,
+      "zone": "four_blues",
+      "est_elevation_m": 500.6
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 165.0,
+      "zone": "four_blues",
+      "est_elevation_m": 494.0
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 167.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 171.0,
+      "zone": "four_blues",
+      "est_elevation_m": 480.9
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 175.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 177.0,
+      "zone": "four_blues",
+      "est_elevation_m": 480.9
+    },
+    {
+      "lat_deg": 89.0,
+      "lon_deg": 179.0,
+      "zone": "four_blues",
+      "est_elevation_m": 546.6
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": -179.0,
+      "zone": "four_blues",
+      "est_elevation_m": 579.4
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": -177.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": -175.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": -173.0,
+      "zone": "four_blues",
+      "est_elevation_m": 546.6
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": -171.0,
+      "zone": "four_blues",
+      "est_elevation_m": 533.4
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": -165.0,
+      "zone": "four_blues",
+      "est_elevation_m": 500.6
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": -163.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": -161.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": -159.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": -15.0,
+      "zone": "four_blues",
+      "est_elevation_m": 586.0
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": -13.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": -9.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": -5.0,
+      "zone": "four_blues",
+      "est_elevation_m": 487.4
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 1.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 3.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 7.0,
+      "zone": "four_blues",
+      "est_elevation_m": 500.6
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 9.0,
+      "zone": "four_blues",
+      "est_elevation_m": 500.6
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 13.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 15.0,
+      "zone": "four_blues",
+      "est_elevation_m": 586.0
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 17.0,
+      "zone": "four_blues",
+      "est_elevation_m": 618.9
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 19.0,
+      "zone": "four_blues",
+      "est_elevation_m": 467.7
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 155.0,
+      "zone": "four_blues",
+      "est_elevation_m": 533.4
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 157.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 159.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 161.0,
+      "zone": "four_blues",
+      "est_elevation_m": 500.6
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 163.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 165.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 167.0,
+      "zone": "four_blues",
+      "est_elevation_m": 480.9
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 171.0,
+      "zone": "four_blues",
+      "est_elevation_m": 507.1
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 173.0,
+      "zone": "four_blues",
+      "est_elevation_m": 507.1
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 175.0,
+      "zone": "four_blues",
+      "est_elevation_m": 520.3
+    },
+    {
+      "lat_deg": 87.0,
+      "lon_deg": 179.0,
+      "zone": "four_blues",
+      "est_elevation_m": 467.7
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -179.0,
+      "zone": "four_blues",
+      "est_elevation_m": 599.1
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -177.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -173.0,
+      "zone": "four_blues",
+      "est_elevation_m": 605.7
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -171.0,
+      "zone": "four_blues",
+      "est_elevation_m": 572.9
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -169.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -167.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -165.0,
+      "zone": "four_blues",
+      "est_elevation_m": 533.4
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -163.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -161.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -159.0,
+      "zone": "four_blues",
+      "est_elevation_m": 546.6
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -15.0,
+      "zone": "four_blues",
+      "est_elevation_m": 592.6
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -11.0,
+      "zone": "four_blues",
+      "est_elevation_m": 487.4
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -9.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -7.0,
+      "zone": "four_blues",
+      "est_elevation_m": 487.4
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -3.0,
+      "zone": "four_blues",
+      "est_elevation_m": 579.4
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": -1.0,
+      "zone": "four_blues",
+      "est_elevation_m": 533.4
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 1.0,
+      "zone": "four_blues",
+      "est_elevation_m": 553.1
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 5.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 7.0,
+      "zone": "four_blues",
+      "est_elevation_m": 579.4
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 9.0,
+      "zone": "four_blues",
+      "est_elevation_m": 553.1
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 13.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 15.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 17.0,
+      "zone": "four_blues",
+      "est_elevation_m": 553.1
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 155.0,
+      "zone": "four_blues",
+      "est_elevation_m": 533.4
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 157.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 159.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 161.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 165.0,
+      "zone": "four_blues",
+      "est_elevation_m": 500.6
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 167.0,
+      "zone": "four_blues",
+      "est_elevation_m": 494.0
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 171.0,
+      "zone": "four_blues",
+      "est_elevation_m": 579.4
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 173.0,
+      "zone": "four_blues",
+      "est_elevation_m": 546.6
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 175.0,
+      "zone": "four_blues",
+      "est_elevation_m": 553.1
+    },
+    {
+      "lat_deg": 85.0,
+      "lon_deg": 177.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": -179.0,
+      "zone": "four_blues",
+      "est_elevation_m": 586.0
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": -173.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": -171.0,
+      "zone": "four_blues",
+      "est_elevation_m": 586.0
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": -167.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": -163.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": -161.0,
+      "zone": "four_blues",
+      "est_elevation_m": 599.1
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": -159.0,
+      "zone": "four_blues",
+      "est_elevation_m": 586.0
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": -15.0,
+      "zone": "four_blues",
+      "est_elevation_m": 553.1
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": -13.0,
+      "zone": "four_blues",
+      "est_elevation_m": 605.7
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": -11.0,
+      "zone": "four_blues",
+      "est_elevation_m": 579.4
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": -5.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": -3.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": -1.0,
+      "zone": "four_blues",
+      "est_elevation_m": 507.1
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 1.0,
+      "zone": "four_blues",
+      "est_elevation_m": 553.1
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 3.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 7.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 11.0,
+      "zone": "four_blues",
+      "est_elevation_m": 546.6
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 13.0,
+      "zone": "four_blues",
+      "est_elevation_m": 592.6
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 15.0,
+      "zone": "four_blues",
+      "est_elevation_m": 605.7
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 17.0,
+      "zone": "four_blues",
+      "est_elevation_m": 645.1
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 19.0,
+      "zone": "four_blues",
+      "est_elevation_m": 586.0
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 155.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 157.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 159.0,
+      "zone": "four_blues",
+      "est_elevation_m": 579.4
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 161.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 163.0,
+      "zone": "four_blues",
+      "est_elevation_m": 520.3
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 165.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 167.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 171.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 173.0,
+      "zone": "four_blues",
+      "est_elevation_m": 507.1
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 175.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 177.0,
+      "zone": "four_blues",
+      "est_elevation_m": 533.4
+    },
+    {
+      "lat_deg": 83.0,
+      "lon_deg": 179.0,
+      "zone": "four_blues",
+      "est_elevation_m": 533.4
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": -179.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": -177.0,
+      "zone": "four_blues",
+      "est_elevation_m": 500.6
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": -173.0,
+      "zone": "four_blues",
+      "est_elevation_m": 592.6
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": -169.0,
+      "zone": "four_blues",
+      "est_elevation_m": 533.4
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": -167.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": -163.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": -161.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": -159.0,
+      "zone": "four_blues",
+      "est_elevation_m": 592.6
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": -13.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": -11.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": -9.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": -5.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": -3.0,
+      "zone": "four_blues",
+      "est_elevation_m": 500.6
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 3.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 5.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 7.0,
+      "zone": "four_blues",
+      "est_elevation_m": 579.4
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 9.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 11.0,
+      "zone": "four_blues",
+      "est_elevation_m": 494.0
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 15.0,
+      "zone": "four_blues",
+      "est_elevation_m": 494.0
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 17.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 19.0,
+      "zone": "four_blues",
+      "est_elevation_m": 599.1
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 21.0,
+      "zone": "four_blues",
+      "est_elevation_m": 520.3
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 155.0,
+      "zone": "four_blues",
+      "est_elevation_m": 434.9
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 157.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 159.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 161.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 163.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 165.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 167.0,
+      "zone": "four_blues",
+      "est_elevation_m": 507.1
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 169.0,
+      "zone": "four_blues",
+      "est_elevation_m": 572.9
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 171.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 173.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 177.0,
+      "zone": "four_blues",
+      "est_elevation_m": 572.9
+    },
+    {
+      "lat_deg": 81.0,
+      "lon_deg": 179.0,
+      "zone": "four_blues",
+      "est_elevation_m": 599.1
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": -179.0,
+      "zone": "four_blues",
+      "est_elevation_m": 520.3
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": -173.0,
+      "zone": "four_blues",
+      "est_elevation_m": 546.6
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": -169.0,
+      "zone": "four_blues",
+      "est_elevation_m": 605.7
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": -167.0,
+      "zone": "four_blues",
+      "est_elevation_m": 533.4
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": -165.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": -163.0,
+      "zone": "four_blues",
+      "est_elevation_m": 520.3
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": -161.0,
+      "zone": "four_blues",
+      "est_elevation_m": 579.4
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": -159.0,
+      "zone": "four_blues",
+      "est_elevation_m": 533.4
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": -157.0,
+      "zone": "four_blues",
+      "est_elevation_m": 487.4
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": -15.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": -13.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": -11.0,
+      "zone": "four_blues",
+      "est_elevation_m": 572.9
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": -7.0,
+      "zone": "four_blues",
+      "est_elevation_m": 533.4
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": -3.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": -1.0,
+      "zone": "four_blues",
+      "est_elevation_m": 533.4
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 1.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 5.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 7.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 9.0,
+      "zone": "four_blues",
+      "est_elevation_m": 618.9
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 11.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 13.0,
+      "zone": "four_blues",
+      "est_elevation_m": 520.3
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 15.0,
+      "zone": "four_blues",
+      "est_elevation_m": 553.1
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 17.0,
+      "zone": "four_blues",
+      "est_elevation_m": 586.0
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 19.0,
+      "zone": "four_blues",
+      "est_elevation_m": 592.6
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 21.0,
+      "zone": "four_blues",
+      "est_elevation_m": 618.9
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 157.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 159.0,
+      "zone": "four_blues",
+      "est_elevation_m": 546.6
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 161.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 163.0,
+      "zone": "four_blues",
+      "est_elevation_m": 507.1
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 165.0,
+      "zone": "four_blues",
+      "est_elevation_m": 480.9
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 167.0,
+      "zone": "four_blues",
+      "est_elevation_m": 487.4
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 169.0,
+      "zone": "four_blues",
+      "est_elevation_m": 533.4
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 173.0,
+      "zone": "four_blues",
+      "est_elevation_m": 507.1
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 175.0,
+      "zone": "four_blues",
+      "est_elevation_m": 507.1
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 177.0,
+      "zone": "four_blues",
+      "est_elevation_m": 480.9
+    },
+    {
+      "lat_deg": 79.0,
+      "lon_deg": 179.0,
+      "zone": "four_blues",
+      "est_elevation_m": 612.3
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -179.0,
+      "zone": "four_blues",
+      "est_elevation_m": 605.7
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -177.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -175.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -173.0,
+      "zone": "four_blues",
+      "est_elevation_m": 546.6
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -169.0,
+      "zone": "four_blues",
+      "est_elevation_m": 579.4
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -167.0,
+      "zone": "four_blues",
+      "est_elevation_m": 586.0
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -165.0,
+      "zone": "four_blues",
+      "est_elevation_m": 507.1
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -161.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -159.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -157.0,
+      "zone": "four_blues",
+      "est_elevation_m": 454.6
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -17.0,
+      "zone": "four_blues",
+      "est_elevation_m": 546.6
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -15.0,
+      "zone": "four_blues",
+      "est_elevation_m": 572.9
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -13.0,
+      "zone": "four_blues",
+      "est_elevation_m": 579.4
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -11.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -9.0,
+      "zone": "four_blues",
+      "est_elevation_m": 487.4
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -7.0,
+      "zone": "four_blues",
+      "est_elevation_m": 572.9
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -5.0,
+      "zone": "four_blues",
+      "est_elevation_m": 599.1
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": -3.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 1.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 7.0,
+      "zone": "four_blues",
+      "est_elevation_m": 586.0
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 13.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 15.0,
+      "zone": "four_blues",
+      "est_elevation_m": 579.4
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 21.0,
+      "zone": "four_blues",
+      "est_elevation_m": 605.7
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 23.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 161.0,
+      "zone": "four_blues",
+      "est_elevation_m": 559.7
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 163.0,
+      "zone": "four_blues",
+      "est_elevation_m": 599.1
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 165.0,
+      "zone": "four_blues",
+      "est_elevation_m": 566.3
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 167.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 169.0,
+      "zone": "four_blues",
+      "est_elevation_m": 513.7
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 171.0,
+      "zone": "four_blues",
+      "est_elevation_m": 480.9
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 173.0,
+      "zone": "four_blues",
+      "est_elevation_m": 572.9
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 175.0,
+      "zone": "four_blues",
+      "est_elevation_m": 474.3
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 177.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 77.0,
+      "lon_deg": 179.0,
+      "zone": "four_blues",
+      "est_elevation_m": 572.9
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -179.0,
+      "zone": "four_blues",
+      "est_elevation_m": 507.1
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -177.0,
+      "zone": "four_blues",
+      "est_elevation_m": 586.0
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -175.0,
+      "zone": "four_blues",
+      "est_elevation_m": 546.6
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -173.0,
+      "zone": "four_blues",
+      "est_elevation_m": 553.1
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -169.0,
+      "zone": "four_blues",
+      "est_elevation_m": 540.0
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -165.0,
+      "zone": "four_blues",
+      "est_elevation_m": 526.9
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -159.0,
+      "zone": "four_blues",
+      "est_elevation_m": 579.4
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -157.0,
+      "zone": "four_blues",
+      "est_elevation_m": 546.6
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -71.0,
+      "zone": "four_blues",
+      "est_elevation_m": 186.2
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -69.0,
+      "zone": "four_blues",
+      "est_elevation_m": 228.6
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -67.0,
+      "zone": "four_blues",
+      "est_elevation_m": 235.7
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -65.0,
+      "zone": "four_blues",
+      "est_elevation_m": 207.4
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -63.0,
+      "zone": "four_blues",
+      "est_elevation_m": 207.4
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -61.0,
+      "zone": "four_blues",
+      "est_elevation_m": 207.4
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -59.0,
+      "zone": "four_blues",
+      "est_elevation_m": 214.5
+    },
+    {
+      "lat_deg": 75.0,
+      "lon_deg": -43.0,
+      "zone": "four_blues",
+      "est_elevation_m": 186.2
+    }
+  ],
+  "biome_grid_rows": [
+    "LLLOLLLOOLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLOLOLLOLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLOLLOLOLLL",
+    "LLLLLOOLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLOLOLOOLLOLLOLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLOLLLOL",
+    "LLOLLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOLLLOLLLOLLLOLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLOLLOLLLLO",
+    "LOOLLOLOLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLOOLLLLLOLOLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLOLLLLL",
+    "LLOLOLLOLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLOLLOOLLLLLOLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLLLLOLL",
+    "LOOLOLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLOLOLLLOLLLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLOLLLL",
+    "LLLLOLLLOLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLLOLOOLOOLLOOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLLLL",
+    "LLLLOLOLOOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLOOOOOOOLOOOOOOOOOOOOOLLLOOLLLLLLOOLLLLOLLOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLOOOOOOOOOOOOOLLLLLLLLL",
+    "LOLLLOLLOLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLOLOOLOLOOOOOOOOOOOOOOOOOLLLLOOLOLLOLLLLLLLLOOOOOOOOOOOOOOOOOOLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOLOLLLLOOOOOOOOOOOOLLLLOLLLL",
+    "LLOLOLOLOLOLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLOOOOOOOOOOLLLLLLOOOOOOOOOOOOOOOOOOOOLLLOLLLLLLLLLLLLLLOOOOOOOOOOOOOOOOLOLLLLLLOLOOOOOOOOOOOOOOOOOOOOOOOLLOLLLLLLLOOOOOOOOOOOOLLLLLLLLL",
+    "LLOOOLOLLLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLOLLLOOOOOOOOOOOOOOOOOOOLLLOLLLLLLOOLLLLLLOOOOOOOOOOOOOOOOOLLLOLOLLLLOOOOOOOOOOOOOOOOOLOOOLOOLLLLOLOLLOOOOOOOOOOOOOLLLLOLOL",
+    "LLOLLLLLLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLOOLLOOOOOOOOOOOOLLOOOOOOOLLLLLLLLOOLOOLLLOOOOOOOOOOOOOOOOOOOOOLLLLLLLLLLLLLLOOOOOOOOOOOOOOOOLOLOOLLLLOLLLOOOOOOOOOOOOOOLLLLLOL",
+    "LLOLLLLLLLLLLLOOOOOOOOOOOOOOOOOOLLOLLLLOOOOOOOOOOLOOOOOLOLOOOOOOOOOOOOOOOOOOOOLLLLLLOLLLOOLLLOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLLLLOLOOOOOOOOOOOOOOOOLLOOLLLLLLOLOOOOOOOOOOOOOOOLLLLLLL",
+    "LLOLOLLLLLLLLLOOOOOOOOOOOOOOOOOOOLOLLLLOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLLLLOLLLOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLLOOOOOOOOOOOOOOOOOOOOLOLOLLOOLOOOOOOOOOOOOOOOOLLLLLLLL",
+    "LLLOLLLLOLLLOOOOOOOOOLLOOOOLOOOOOLLLLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLOOLLLOOLLOOOOOOOOOOOOOOLLOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLOOOOOOOOOOOOOOOOOOOOLLLLOOLLO",
+    "LOOLLLOLLOLLOOOOOOOOOOOOOOOOLOLOOOLLLLLLLLOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOLLOLOOOLLOOOOOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOLLLOOLOOOOOOOLLOOOOOOOOOOOLLLLLLLOLL",
+    "OLOOLOOOLOLLLOOOOOOOOOOOOOOOOOLLLLOLLLOOOOOOOOOOOLOOOOOOOOOOOLOOOOOOOOOOOOOOLLLLLLLOLLLOLLOLOLLLOOOOOOOOOOOLLOOOOOOOOOOOLLOOOOOOOOOOOOOOOOOOOOOOLLOOOOOOOOOOLLLLOOOOOOOOOOLLLLLLLOLL",
+    "LOOLLLLLLLLLLLOOOOOOOOOOOOOOOLOOLOOOLOLLOOOOOOOOLOOOOOOOOOOOOLLOOLOOOOOOOOOLLOLLOOLOOLLOLLOLOLLLOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOLOLOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLOLOOLL",
+    "LLLLLLLLLLLLLLOOOOOOOOOOOOOOLOOOOOOOOLOLOOOOOOOLOLOLOOOOOOOOLLLLLLOOOOOOOLLLOLOLLLOLLOLLOLOOLLLLOOOOOOOOOOOOOOOOLLLLLOOOOOOOOOOOOOLLLLLLOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLOOLOOLL",
+    "LLLLLLLLLLLLLOOOOOLOOOOOOLLLLOOOLLLLOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLOOOOOOOLLLLLLLLOLOLLLOOLOOLLLOOOLLLLOOOOOOOOOOLLLOOOOOOOOOOOOOLOLOOLLLOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLOOLOOOLO",
+    "LLLOLLLLLLLLLOOOOOLLOOOOOOOLLLOOOLLLLLOOOOOOOOOOOOOOOOOOOOOOOOLLLOOOOOOLLOOOLOOLLLLOLOOOOOLOLLLOOOLLLLOOOOOOOOOOLLLOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLOOOLLLLL",
+    "LOOLLLLLLLLLLOOOOOOOOOOOOOOLLLLLOOLLLOOOOOOOOOOOOOOOOOOOOOOOOLLLOOOOLOLLOOOOOOOLLLLOLOOOLOOOLLLLOOLOOLLOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLOOLLO",
+    "LOLLOLLLLLLLOOOOOOOOOOOOOOOOOOLOOOOCCNNNNNNNNNNNNNNNNCCOOOOOOOOOOOOLLLLOOOOOOOOLLLOLLOLOOOOOOOLLOLOLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRRRRRRRROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLOOLLL",
+    "LLLOLLLLOOOOOOOOOOOOOOOOOOOOOOOCNNNNNNCCOOOOOOOOOOCCNNNNNNCOOOOOOOOOLOOOOOOOOOOOLLOLLOOOLOLLLLLLLLLLLLOOOOOOOOOOOOOOOOOOOOORRROOOOOOOOOOOOOOOOOORRROOOOOOOOOOOOOOOOOOOOOOOOOOLLLLOOL",
+    "LLOLOLLOOOOOOOOOOOOOOOOOOOOCNNNNCCOOOOOOOOOOOOOLOOOOOOOOCCNNNNCLOOOOOOOOOOOOOOOOLLOLOOOOOLLOOLOLLLLLOOOOOOOOOOOOOOOOOOORROOOOOOOOOOOOOOOOOOOOOOOOOOOORROOOOOOOOOOOOOOOOOOOOOOLLOOLLL",
+    "OLOOLLLOOOOOOOOOOOOOOOOOONNNNCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLCNNNNOOOOOOOOOOOOOOOOLOLLOLLLOLOLLLLLLOOOOOOOOOOOOOOOOOORROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORROOOOOOOOOOOOOOOOOOLLLLOLLL",
+    "LLLLLOLOOOOOOOOOOOOOOOCNNNCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLOCNNNCOOOOOOOOOOOOLLLOLLOLLLLOOLLLOOOOOOOOOOOOOOOOOOROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROOOOOOOOOOOOOOOOOLLLLLLL",
+    "LOLLLLOOOOOOOOOOOOOOCNNNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOONNNCOOOOOOOOOOOLLOLLLLLLOLLLLOOOOOOOOOOOOOOOOOROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROOOOOLOOOOOOOOLLLOOLOL",
+    "LOOLOLLOOOOOOOOOOOONNCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCNNOOOOOOOOOOLLLLOLOOLLLLLOOOOOOOOOOOOOOOOROOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROOOOOOOOOOOLLLLLLLLL",
+    "LLLLLLLLLOOOOOOOONNNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONNNOOOLLLLOLLLLLOLLLOLLOOOOOOOOOOOOOOOROOOOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROOOOOOOOOLLLLLOLLL",
+    "LOLLLOLLOOOOOOOCNNOOOOOOOOOOOOOOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONNCLLLLOOLLLOLLLLOLLLLOOOOLLOOOOOOROOOOOLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROOOOOOOOLLLLLLLL",
+    "LOLLLOLLOOOOOONNCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOCNNOOLOLOLLLLLLLOLLLOOOOOOOOOOOOROOOOOOOOLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOROOOOOOOOLLLLLLL",
+    "LLLLLLLLOOOOCNNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONNCOLLLLLLLLOOOLLLOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLL",
+    "LLLLLLLLOOOCNCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCNCOLLOLLLLLLLLLLOOOOOOOOOROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROOOOOOLLLLLL",
+    "LLOLLLLLLLNNCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCNNOLOLLLLLLOLLLLOOOOOOOROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROOOOLLLLLLL",
+    "LLLLOLLLLNNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONNLLOLLOOOLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLOLLL",
+    "LOLLLLLLNNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONNLOLLLLLLLLLOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLL",
+    "LLLLLOLNNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONNLOLLLLOLLOLLLLROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORLLLLLLL",
+    "LOOOOCNCOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCNCOLLLLLLOLLLRLOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORLLOLOL",
+    "LLLLCNCOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOLCNCLLLLLOLLLRLLOOOOOOOOOOOOOOOOOOOOOOOOLLOOOOOOOOOLOOOOOLOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOLROLOLL",
+    "OLLCNCLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOLOOOOOOOOLOLOOOOOOOLLOOOOOOOOOOOOOOOOOOLCNCLLLLOLLRLLLOOOOOOLOOOOOOOOOOOOOOOOOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOLLRLOLL",
+    "LLCNCOOOOOOOOOOOOOOOOLOOOOLOOOOOOOOOOOOOOOOOOOOOOOLOLOOOOOOOOOOLLOOOOOOOOOOLOOOOOOOLLCNCLLOOLRLLLLOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLROOL",
+    "LCNCLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOLLLCNCLOLRLOLOOOOOOOOOOOOOOOOOLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLOROL",
+    "CNCLOLOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOLLOOOOOOOOOOOOOOOLOOOOLLOOOOOOOOOOOOOOOOOOLLOOLCNCORLOLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOLLOLLLOOLRL",
+    "NCLLOLOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOLLLOOOOLOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOLOOOLLLOOCNRLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOR",
+    "ROLLLOOOOOOOOOOOOLOOLOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOLLOOOLLOLLORPCOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLOOLOLLLCP",
+    "LRLLLLOOOOOOOOOOOOOOOOOOOOLLOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOLOOOOOLOOOOOOOOOOOOOOOLLLLLROCPCLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOLLOOOOOOOOOOOOOOOOOOOOOOOOOLOLLOLOLLOLCPC",
+    "LORLLLOOOLOOOOOOOOOOOLLLOOLOOOOOOOOOOOOOOOLOOOOOLOOOOOOOOLOOOLOOOOOOOOOOOOLOOOOOOOOLLLLRLOLCPCLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOLLOCPCL",
+    "LOORLLOOOOLOOOLLLOOOOOOOLLOLLLLLOLOOLLLLLLLOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLOROLLOLCPCLLOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLCPCOL",
+    "LLOORLOOOOOLLOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROLLLLOLCPCLOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLOOOOOOOOOOLCPCOLO",
+    "LLLOLROOOOOOOOOOOLOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOLOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLRLOLOLLOLLCPCOOOOOOOOOOOOOOOOOOLOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCPCLOLL",
+    "LLLLLLROOOOOOOOOOOOOOOLOOLLOOOOOOOOOOOOOOOOOOOOOOOOOOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOLRLOLLLLLLOLLCPCOOOOOOLLLOOOOOOOOOOOOOOLLLOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCPCLOLLO",
+    "OLLOLLLROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLRLLOLLLOLLOOLLOPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOPPLLOOLLL",
+    "OLLLOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLOLLLLLLLLOLLOOPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOPPOLLLLLLL",
+    "LOLLOOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLOLLLOLOOOLLOLOOOPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOPPOOLLLLOOL",
+    "LOLOOLLLOOOROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROOLLOLLOLLOOLLLOOOOOOPPCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCPPOOOOLLLLLL",
+    "OOOLLLLLLOOOROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROOOLOLLLOLOLOLLLLOOOOOOCPCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCPCOOOOLLLOLOL",
+    "LOLLLLLOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOLLLOOOLOLLLLLOOOOOOCPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOPPCOOOOOLLLOOOO",
+    "LOLLOLLOOOOOOOOROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROOOOOOOLLLLOOOLOLOLLLLOOOOOOOPPCLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCPPLLLOOOOLLLLOOL",
+    "OLLLLOLLOOOOOOOOROOLOOOOOOLLLOLOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROOOOOOOOLLLLLLOOLLLOLLLLOOOOOOOCPPLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOPPCLLLLOOOOOLLLLLL",
+    "LLOLLOLLOOOOOOOOOOROOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROOOOOOOOOLLLLLLOLLLOLLLLLLLOLOLOOOLPPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOPPPOOLOOOOOOOOLLLLLL",
+    "LLLLOOLLOOOOOOOOOOOOROOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROOOOOOOOOOOLLLLLLLLLLLLLLLLLLOOLLOOOLLLPPCOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOCPPOOOOOOOOOOOLLLLLOLL",
+    "LLLOLLOLOLLOOOOOOOOOOORLOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROOOOOOOOOOOOOLLLLLLOLLLLLLLLLOLLOLLOOOOOLLCPPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOPPPCOOOOOOOOOOOOLLLLOOOL",
+    "LLLLLLLLLLOOOOOOOOOOOLLLRLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOROOOOOOOOOOOOOOLLLLLLLLLLLLLLLLOOLLOOOOOOLOLOLOCPPPCLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCPPPCOOOOOOOOOOOOOOOLLLLLLL",
+    "LLOLLLLLLOOOOOOOOOOOLOLLLORRLOOOOOOOOOOOOOOOLLLOLOOOOOOOOOOOOORROOOOOOOOOOOOOOLLLLLLLLLLLLLLLLLLLLLOOOLOLLLLLLLOOOLPPPPCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCPPPPOOOOOOOOOOOOOOOOOOOLLLLLL",
+    "LLLLLLLLLOOOOOOOOOOLLLLLLLOOORROOOOOOOOOLOOOOOOOOOOOOOOOOOORROOOOOOOOOOOOOOOOOLLLLOLLOOLLLLLLLLLLLLOLOLOOOLLLLLLOLOOOCPPPPCCOOOOOOOOOOOOOOOOOOOOOOCCPPPPCOOOOOOOOOOOOOOOOOOOOOLLOLLO",
+    "LLOLLOLLLOOOOOOOOOLOLLLLLLLOOOOOORRROOOOOOOOOOLLOOOOOORRROOOOOOOOOOLLOOOOOOOOLLLLLLLOLLLLLLLLLOOLLLLLLOLLLLLLOLOOLLOOOOOOCPPPPPPCCOOOOOOOOOOCCPPPPPPCOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLL",
+    "OLLLOOLLOOOOOOOOOOOLLLLOOLLLLLOOOOOOOOOORRRRRRRRRROOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLOLLLLLLLLLLOOLLOLOLLLLLLLLOOLLOOOOOOOOOOOOCCPPPPPPPPPPPPPPPPCCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLOLOL",
+    "LLLLLOOLLOOOOOOOOOOLOLLLLOOOOOOOOOOOOOOOOOLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLLLLLOOOLLLOOLOOLOOOLLLOLOOOLLLLOLLOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOLLOOOLL",
+    "LLLLLLLLOOOOOOOOOOOOLLLOLOOOOOOOOOOOOOOOOOOOOOOOOLOOLOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLOOLLLLOLLLLOOLOLOOOOLLLLOLLOLOOLLLOOOOOOOOOOOOOOOOOOOOOLLOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOLLLLLOL",
+    "LLLLOLLLLOOOOOOOOOOOOLLOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOLLLLLOOOLLLLLLLLOOLOOLOOLLOLLLLOLOLOOOLOOOOOOOOOOOOOOOOOOOOLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLOLL",
+    "LLOLLLLOLLLLOLOOOLLLLLOLOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLOLOOLLLLOOOOOLOLOOOOOLOLLOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLLLOOOOOOOOOOOOOOLLLOOOOOOOOOOLLLLLLLL",
+    "LLLLLLOLLOLLLLLOLLLLLOOOOLOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLOLLLLLLOOOOOOOOOLLLOLOLLLLLOLLOOOLOOOOOOOOOOOOOOOOLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLL",
+    "LLLLLOLLLOLLLLLOLLLOOLLOOLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLOOOOOOOLLLLLLLLLLLLLOOOOOOOOOLLOLLOLOLLLOOLLOLOLOLLLOOOOOOOOOOOOLLLOLOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOLLLOLLL",
+    "OLLLLLOOLOLLLLOOOLLLLLLLOOOOLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOLOOOOLLLLLOLLLLLLLLLLLOOOOOOLLLOOOOOOLLLLOOOOOOOOOOOOOOOOOOOLLLOOLLLOOOOOOOOOOOOLLOOOOOOOOOOOOOOOOOLLLLLLL",
+    "LLLLLLOOLLLLOOOOOLLOLOLOLLLLOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOLOOOLLOOOLLLOOLLOLLLLLLLLOOOOOLOOLOOLOLOOOOOLLLLOOOOOOOOOOOOOOOOOLLOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOLLL",
+    "LLLLLLOOOLLOOOOOOLLOOOOOLOOOOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLOOOOLLLLLLLLLOOLLLLOLLLLOOOOOLOLOOLLOLOOOOOOOOOOOOOOOOLOOLOOOOOOOOOOOOLLOOOOOOOOOLLLLLLLOOOOOOOOOOOLOOOLOLLLL",
+    "LLLLLOLOLLLOOOOOOOOOOOOOOLOOOLOOOOOOOOOOOOOOOOOOOOOOLOOLLOOOOOOOOOLOLLLOOLOOLLOOLLLLLOLLLOLLLOOOOOOOOOLOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOLLLOL",
+    "LLLLLLLLLLOOOOOOOOOOOOOOOLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOLLOOOOOOOLOLLLLLLLLOOLLLOLLOLLLLLLLLLOOOOOOOLOLOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOLLOOLOL",
+    "LLLLLLOLLOOLOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOLLLLOLOLLOOOOLLLLOLLLLLOOOLLLOOOOOOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOLOLLLLOLL",
+    "LLLOLLLLLLLLLOOOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOLLOOOLLOLOLLOOOOLOLLLOOOOLOLLLOLLLLLLLLLOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLOOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOLLLOOLOLO",
+    "LLOOOOLLLLLLLLOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLOOOOLLOOOOOOLLOOOOOOOOLLLLLLLLLLLLLLLLLOOOOOOOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOLOLLOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLOOLL",
+    "LLLLLOOLOOLLLLOOOOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLOOOOOOOOOLLLLLLLLLLLLOLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLOLL",
+    "LOLLOOOOLLLLLOOOOLOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLOLLLLLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLOLOO",
+    "LLLLOLOOOLLLOOOOOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLLLLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLOLLLL",
+    "LLOLLLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLLOLLOLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLOL",
+    "LLLLLLOLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLLOLLLOLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLOLLO",
+    "LLLOOLOOLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLOLLLLLLOOLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLOOLLLL",
+    "LLLLLLLLLOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLOLLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLOOLOL",
+    "LLLLLLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLOLLLLLLLLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLLL"
+  ]
+}

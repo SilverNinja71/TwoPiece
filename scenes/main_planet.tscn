@@ -1,0 +1,80 @@
+[gd_scene load_steps=15 format=3 uid="uid://c6blueplanetmain01"]
+
+[ext_resource type="Script" path="res://core/planet_sphere.gd" id="1_planet"]
+[ext_resource type="Script" path="res://core/spherical_player.gd" id="2_player"]
+[ext_resource type="Script" path="res://core/buoyant_ship_vessel.gd" id="3_ship"]
+[ext_resource type="Script" path="res://regions/reverse_mountain_controller.gd" id="4_rm"]
+[ext_resource type="Script" path="res://regions/grand_line_simulator.gd" id="5_glsim"]
+[ext_resource type="Script" path="res://ui/exploration_hud.gd" id="6_hud"]
+[ext_resource type="Script" path="res://core/planet_mesh_renderer.gd" id="7_mesh"]
+[ext_resource type="Script" path="res://rendering/island_mesh_streamer.gd" id="8_islands"]
+[ext_resource type="Script" path="res://rendering/sky_atmosphere_renderer.gd" id="9_sky"]
+[ext_resource type="Script" path="res://rendering/reverse_mountain_mesh_builder.gd" id="10_rmmesh"]
+[ext_resource type="Script" path="res://rendering/east_blue_settlement_builder.gd" id="11_ebmesh"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_blueplanet"]
+sky_top_color = Color(0.14, 0.42, 0.80, 1)
+sky_horizon_color = Color(0.68, 0.84, 0.96, 1)
+ground_bottom_color = Color(0.05, 0.14, 0.28, 1)
+ground_horizon_color = Color(0.28, 0.56, 0.78, 1)
+
+[sub_resource type="Sky" id="Sky_blueplanet"]
+sky_material = SubResource("ProceduralSkyMaterial_blueplanet")
+
+[sub_resource type="Environment" id="Environment_blueplanet"]
+background_mode = 2
+sky = SubResource("Sky_blueplanet")
+ambient_light_source = 3
+ambient_light_color = Color(0.75, 0.85, 0.95, 1)
+ambient_light_energy = 0.75
+tonemap_mode = 2
+fog_enabled = true
+fog_light_color = Color(0.62, 0.78, 0.92, 1)
+fog_density = 0.000012
+
+[node name="MainPlanetWorld" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_blueplanet")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.766044, -0.413176, 0.492404, 0, 0.766044, 0.642788, -0.642788, -0.492404, 0.586824, 0, 120, 0)
+light_color = Color(1, 0.97, 0.9, 1)
+light_energy = 1.35
+shadow_enabled = true
+
+[node name="PlanetSphere" type="Node3D" parent="."]
+script = ExtResource("1_planet")
+
+[node name="PlanetMeshRenderer" type="Node3D" parent="."]
+script = ExtResource("7_mesh")
+
+[node name="SkyAtmosphereRenderer" type="Node3D" parent="."]
+script = ExtResource("9_sky")
+
+[node name="IslandMeshStreamer" type="Node3D" parent="."]
+script = ExtResource("8_islands")
+
+[node name="EastBlueSettlementBuilder" type="Node3D" parent="."]
+script = ExtResource("11_ebmesh")
+
+[node name="ReverseMountainMeshBuilder" type="Node3D" parent="."]
+script = ExtResource("10_rmmesh")
+
+[node name="ReverseMountainController" type="Node3D" parent="."]
+script = ExtResource("4_rm")
+
+[node name="GrandLineSimulator" type="Node3D" parent="."]
+script = ExtResource("5_glsim")
+
+[node name="BuoyantShipVessel" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+script = ExtResource("3_ship")
+vessel_name = "Going Caravel (Dawn Island)"
+
+[node name="SphericalPlayer" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.2, 1.5)
+script = ExtResource("2_player")
+
+[node name="ExplorationHUD" type="CanvasLayer" parent="."]
+script = ExtResource("6_hud")

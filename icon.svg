@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="oceanGrad" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="55%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0c2d59"/>
+    </radialGradient>
+    <linearGradient id="redLineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Brass Log Pose Bezel -->
+  <circle cx="64" cy="64" r="60" fill="#1e293b" stroke="url(#goldGrad)" stroke-width="5"/>
+  <!-- Blue Planet Sphere -->
+  <circle cx="64" cy="64" r="50" fill="url(#oceanGrad)"/>
+
+  <!-- Grand Line (-45 deg band) -->
+  <path d="M 21 38 Q 64 56 107 90" fill="none" stroke="#7dd3fc" stroke-width="11" stroke-linecap="round" opacity="0.42"/>
+  <path d="M 21 38 Q 64 56 107 90" fill="none" stroke="#bae6fd" stroke-width="4" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Red Line (+45 deg continent ring) -->
+  <path d="M 24 96 Q 64 62 104 28" fill="none" stroke="url(#redLineGrad)" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Reverse Mountain & Mary Geoise Intersection Nodes -->
+  <circle cx="64" cy="64" r="7" fill="#fef08a" stroke="#7f1d1d" stroke-width="2.5"/>
+
+  <!-- Golden Log Pose Needle -->
+  <polygon points="64,18 70,64 64,58 58,64" fill="url(#goldGrad)"/>
+  <polygon points="64,110 70,64 64,70 58,64" fill="#cbd5e1"/>
+  <circle cx="64" cy="64" r="4" fill="#1e293b" stroke="#fde047" stroke-width="1.5"/>
+
+  <!-- Specular Glass Highlight -->
+  <ellipse cx="46" cy="36" rx="20" ry="10" transform="rotate(-25 46 36)" fill="#ffffff" opacity="0.18"/>
+</svg>

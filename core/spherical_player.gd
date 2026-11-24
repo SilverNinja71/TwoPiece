@@ -46,6 +46,11 @@ enum MovementMode {
 # ==============================================================================
 @export var mouse_sensitivity_rad: float = 0.0022
 @export var devil_fruit_user: bool = false # If true, loses strength when submerged in Blue Sea water
+var has_devil_fruit: bool:
+	get:
+		return devil_fruit_user
+	set(value):
+		devil_fruit_user = value
 @export var equipped_jet_dial: bool = false
 @export var equipped_surveying_sextant: bool = true
 

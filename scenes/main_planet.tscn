@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://c6blueplanetmain01"]
+[gd_scene load_steps=23 format=3 uid="uid://c6blueplanetmain01"]
 
 [ext_resource type="Script" path="res://core/planet_sphere.gd" id="1_planet"]
 [ext_resource type="Script" path="res://core/spherical_player.gd" id="2_player"]
@@ -11,6 +11,14 @@
 [ext_resource type="Script" path="res://rendering/sky_atmosphere_renderer.gd" id="9_sky"]
 [ext_resource type="Script" path="res://rendering/reverse_mountain_mesh_builder.gd" id="10_rmmesh"]
 [ext_resource type="Script" path="res://rendering/east_blue_settlement_builder.gd" id="11_ebmesh"]
+[ext_resource type="Script" path="res://core/combat_and_devil_fruit_system.gd" id="12_combat"]
+[ext_resource type="Script" path="res://core/procedural_audio_manager.gd" id="13_audio"]
+[ext_resource type="Script" path="res://regions/grand_line_enemy_director.gd" id="14_glenemy"]
+[ext_resource type="Script" path="res://regions/reverse_mountain_encounter_director.gd" id="15_rmenc"]
+[ext_resource type="Script" path="res://regions/east_blue_interactable_director.gd" id="16_ebint"]
+[ext_resource type="Script" path="res://rendering/north_blue_settlement_builder.gd" id="17_nbmesh"]
+[ext_resource type="Script" path="res://rendering/west_blue_settlement_builder.gd" id="18_wbmesh"]
+[ext_resource type="Script" path="res://rendering/south_blue_settlement_builder.gd" id="19_sbmesh"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_blueplanet"]
 sky_top_color = Color(0.14, 0.42, 0.80, 1)
@@ -58,6 +66,15 @@ script = ExtResource("8_islands")
 [node name="EastBlueSettlementBuilder" type="Node3D" parent="."]
 script = ExtResource("11_ebmesh")
 
+[node name="NorthBlueSettlementBuilder" type="Node3D" parent="."]
+script = ExtResource("17_nbmesh")
+
+[node name="WestBlueSettlementBuilder" type="Node3D" parent="."]
+script = ExtResource("18_wbmesh")
+
+[node name="SouthBlueSettlementBuilder" type="Node3D" parent="."]
+script = ExtResource("19_sbmesh")
+
 [node name="ReverseMountainMeshBuilder" type="Node3D" parent="."]
 script = ExtResource("10_rmmesh")
 
@@ -66,6 +83,21 @@ script = ExtResource("4_rm")
 
 [node name="GrandLineSimulator" type="Node3D" parent="."]
 script = ExtResource("5_glsim")
+
+[node name="CombatAndDevilFruitSystem" type="Node" parent="."]
+script = ExtResource("12_combat")
+
+[node name="ProceduralAudioManager" type="Node" parent="."]
+script = ExtResource("13_audio")
+
+[node name="GrandLineEnemyDirector" type="Node3D" parent="."]
+script = ExtResource("14_glenemy")
+
+[node name="ReverseMountainEncounterDirector" type="Node3D" parent="."]
+script = ExtResource("15_rmenc")
+
+[node name="EastBlueInteractableDirector" type="Node3D" parent="."]
+script = ExtResource("16_ebint")
 
 [node name="BuoyantShipVessel" type="RigidBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
